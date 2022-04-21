@@ -1,5 +1,5 @@
 import pytest
-from series import fib, lucas, sum_series
+from math_series.series import fib, lucas, sum_series
 
 def test_fzero():
   actual = fib(0)
